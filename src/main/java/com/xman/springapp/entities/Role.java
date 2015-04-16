@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.sivalabs.springapp.entities;
+package com.xman.springapp.entities;
 
 import java.io.Serializable;
 
@@ -13,7 +13,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
- * @author Siva
+ * @author fandy
  *
  */
 @Entity

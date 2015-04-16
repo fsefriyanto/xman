@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.sivalabs.springapp.services;
+package com.xman.springapp.services;
 
 import java.util.List;
 
@@ -11,12 +11,14 @@ import org.springframework.transaction.annotation.Transactional;
 
 
 //import com.sivalabs.springapp.dao.UserDao;
-import com.sivalabs.springapp.entities.User;
-import com.sivalabs.springapp.repositories.UserRepository;
+
+
+import com.xman.springapp.entities.User;
+import com.xman.springapp.repositories.UserRepository;
 
 
 /**
- * @author Siva
+ * @author fandy
  *
  */
 @Service
