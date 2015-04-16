@@ -1,4 +1,4 @@
-package com.sivalabs.springapp.dao;
+package com.xman.springapp.dao;
 
 import java.util.List;
 
@@ -11,7 +11,7 @@ import javax.persistence.TypedQuery;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.sivalabs.springapp.entities.User;
+import com.xman.springapp.entities.User;
 
 @Repository
 @Transactional

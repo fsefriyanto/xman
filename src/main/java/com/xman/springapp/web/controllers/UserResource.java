@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.sivalabs.springapp.web.controllers;
+package com.xman.springapp.web.controllers;
 
 import java.util.List;
 
@@ -16,11 +16,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.sivalabs.springapp.entities.User;
-import com.sivalabs.springapp.services.UserService;
+import com.xman.springapp.entities.User;
+import com.xman.springapp.services.UserService;
 
 /**
- * @author Siva
+ * @author fandy
  *
  */
 @Controller

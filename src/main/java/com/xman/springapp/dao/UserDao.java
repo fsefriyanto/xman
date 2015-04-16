@@ -1,14 +1,14 @@
 /**
  * 
  */
-package com.sivalabs.springapp.dao;
+package com.xman.springapp.dao;
 
 import java.util.List;
 
-import com.sivalabs.springapp.entities.User;
+import com.xman.springapp.entities.User;
 
 /**
- * @author katsi02
+ * @author fandy
  *
  */
 public interface UserDao {

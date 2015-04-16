@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.sivalabs.springapp.entities;
+package com.xman.springapp.entities;
 
 import java.util.Date;
 import java.util.HashSet;
@@ -19,7 +19,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 /**
- * @author katsi02
+ * @author fandy
  *
  */
 @Entity

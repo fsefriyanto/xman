@@ -28,12 +28,12 @@ import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
- * @author Siva
+ * @author fandy
  *
  */
 @Configuration
 @EnableTransactionManagement
-@EnableJpaRepositories(basePackages="com.sivalabs.springapp.repositories")
+@EnableJpaRepositories(basePackages="com.xman.springapp.repositories")
 public class PersistenceConfig {
 
 	@Autowired
@@ -60,7 +60,7 @@ public class PersistenceConfig {
 
 		factory.setDataSource(dataSource());
 		factory.setJpaVendorAdapter(vendorAdapter);
-		factory.setPackagesToScan("com.sivalabs.springapp.entities");
+		factory.setPackagesToScan("com.xman.springapp.entities");
 
 		Properties jpaProperties = new Properties();
 		jpaProperties.put("hibernate.hbm2ddl.auto", env.getProperty("hibernate.hbm2ddl.auto"));

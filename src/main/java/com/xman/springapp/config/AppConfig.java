@@ -22,12 +22,12 @@ import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
- * @author Siva
+ * @author fandy
  *
  */
 @Configuration
-@ComponentScan(basePackages={"com.sivalabs.springapp"},
-		excludeFilters=@ComponentScan.Filter(type=FilterType.REGEX, pattern={"com.sivalabs.springapp.web.*"}))
+@ComponentScan(basePackages={"com.xman.springapp"},
+		excludeFilters=@ComponentScan.Filter(type=FilterType.REGEX, pattern={"com.xman.springapp.web.*"}))
 @PropertySource(value = { "classpath:application.properties" })
 @EnableScheduling
 @EnableAspectJAutoProxy
