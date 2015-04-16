@@ -1,11 +1,11 @@
-package com.sivalabs.springapp.repositories;
+package com.xman.springapp.repositories;
 
 import java.io.Serializable;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import com.sivalabs.springapp.entities.User;
+import com.xman.springapp.entities.User;
 
 public interface UserRepository extends JpaRepository<User, Serializable>{
 

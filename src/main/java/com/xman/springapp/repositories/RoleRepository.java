@@ -1,10 +1,10 @@
-package com.sivalabs.springapp.repositories;
+package com.xman.springapp.repositories;
 
 import java.io.Serializable;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.sivalabs.springapp.entities.Role;
+import com.xman.springapp.entities.Role;
 
 public interface RoleRepository extends JpaRepository<Role, Serializable>
 {

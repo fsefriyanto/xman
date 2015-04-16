@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.sivalabs.springapp.web.config;
+package com.xman.springapp.web.config;
 
 import javax.servlet.Filter;
 
@@ -12,7 +12,7 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 import com.xman.springapp.config.AppConfig;
 
 /**
- * @author Siva
+ * @author fandy
  *
  */
 public class SpringWebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer

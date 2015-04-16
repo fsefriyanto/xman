@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.sivalabs.springapp.web.config;
+package com.xman.springapp.web.config;
 
 import java.util.Properties;
 
@@ -20,7 +20,7 @@ import org.springframework.web.servlet.handler.SimpleMappingExceptionResolver;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 /**
- * @author Siva
+ * @author fandy
  * 
  */
 @Configuration

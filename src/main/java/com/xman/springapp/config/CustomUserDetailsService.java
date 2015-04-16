@@ -9,12 +9,12 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Component;
 
-import com.sivalabs.springapp.entities.User;
-import com.sivalabs.springapp.services.UserService;
-import com.sivalabs.springapp.web.config.SecurityUser;
+import com.xman.springapp.entities.User;
+import com.xman.springapp.services.UserService;
+import com.xman.springapp.web.config.SecurityUser;
 
 /**
- * @author Siva
+ * @author fandy
  *
  */
 @Component

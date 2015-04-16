@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.sivalabs.springapp.web.config;
+package com.xman.springapp.web.config;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -11,11 +11,11 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import com.sivalabs.springapp.entities.Role;
-import com.sivalabs.springapp.entities.User;
+import com.xman.springapp.entities.Role;
+import com.xman.springapp.entities.User;
 
 /**
- * @author Siva
+ * @author fandy
  *
  */
 public class SecurityUser extends User implements UserDetails
