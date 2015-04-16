@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.sivalabs.springapp.config;
+package com.xman.springapp.config;
 
 
 import java.util.Properties;
