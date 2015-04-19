@@ -24,7 +24,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
  * 
  */
 @Configuration
-@ComponentScan(basePackages = { "com.sivalabs.springapp.web"}) 
+@ComponentScan(basePackages = { "com.xman.springapp.web"}) 
 @EnableWebMvc
 public class WebMvcConfig extends WebMvcConfigurerAdapter
 {
