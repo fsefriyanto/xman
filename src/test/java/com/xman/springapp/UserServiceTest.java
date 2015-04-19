@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.sivalabs.springapp;
+package com.xman.springapp;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
